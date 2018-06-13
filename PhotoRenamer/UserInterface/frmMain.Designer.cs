@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAbout = new System.Windows.Forms.Button();
             this.btnMin = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.panelDataFolder = new System.Windows.Forms.Panel();
@@ -54,7 +55,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtStatus = new System.Windows.Forms.TextBox();
-            this.btnAbout = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panelDataFolder.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -116,6 +116,25 @@
             this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.BackColor = System.Drawing.Color.Transparent;
+            this.btnAbout.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAbout.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAbout.FlatAppearance.BorderSize = 0;
+            this.btnAbout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(201)))), ((int)(((byte)(201)))));
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnAbout.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.btnAbout.Location = new System.Drawing.Point(269, 0);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(40, 31);
+            this.btnAbout.TabIndex = 3;
+            this.btnAbout.Text = "?";
+            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAbout.UseVisualStyleBackColor = false;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // btnMin
             // 
@@ -414,25 +433,6 @@
             this.txtStatus.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtStatus.Size = new System.Drawing.Size(384, 136);
             this.txtStatus.TabIndex = 5;
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.BackColor = System.Drawing.Color.Transparent;
-            this.btnAbout.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnAbout.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnAbout.FlatAppearance.BorderSize = 0;
-            this.btnAbout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(201)))), ((int)(((byte)(201)))));
-            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbout.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnAbout.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.btnAbout.Location = new System.Drawing.Point(269, 0);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(40, 31);
-            this.btnAbout.TabIndex = 3;
-            this.btnAbout.Text = "?";
-            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnAbout.UseVisualStyleBackColor = false;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // frmPhotoRenamer
             // 
